@@ -5,10 +5,12 @@ public class CalculatorExecute {
 
         Calculator c = new Calculator();
         int addition = c.addition(4,7);
-        System.out.println(addition);
+        System.out.println("[+] Suma : "+addition);
 
         int subtraction = c.subtration(4,7);
-        System.out.println(subtraction);
+        System.out.println("[+] Resta : " + subtraction);
 
+        int multiplication = c.multiplication(4,7);
+        System.out.println("[+] Multiplicacion : " + multiplication);
     }
 }

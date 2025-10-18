@@ -37,10 +37,16 @@ public class CalculatorParametersTest {
         int actual = c.addition(a, b);
         assertEquals(expected,actual);
     }
+    //@Test
     public void given_parameters_when_subtration_then_restation() {
         Calculator c = new Calculator();
         int actual = c.subtration(a, b);
         assertEquals(expected,actual);
     }
-
+    //@Test
+    public void given_parameters_when_multiplication_then_multiplication() {
+        Calculator c = new Calculator();
+        int actual = c.multiplication(a, b);
+        assertEquals(expected,actual);
+    }
 }
