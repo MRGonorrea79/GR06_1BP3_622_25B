@@ -7,5 +7,8 @@ public class CalculatorExecute {
         int addition = c.addition(4,7);
         System.out.println(addition);
 
+        int subtraction = c.subtration(4,7);
+        System.out.println(subtraction);
+
     }
 }

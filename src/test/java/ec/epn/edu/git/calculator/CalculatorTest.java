@@ -24,10 +24,15 @@ public class CalculatorTest {
         System.out.println("Test1");
         assertEquals(6, c.addition(3, 3));
     }
+    @Test
+    public void given_two_integers_when_subtract_then_ok() {
+        System.out.println("Test2");
+        assertEquals(8,c.subtration(18, 10));
+    }
 
     @Test(timeout = 200)
     public void given_a_time_when_timeout_then_exception() {
-        System.out.println("Test4");
+        System.out.println("Test3");
         c.timeout(100);
     }
 
